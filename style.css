@@ -1,0 +1,72 @@
+header{
+  color: #00FF00;
+  text-align: center;
+}
+
+body{
+  background-image: url(background.jpg);
+  display:inline-block;
+  background-size: cover;
+}
+
+main{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 520PX;
+  width: 1020px;
+  padding: 50px;
+  margin-left: 180PX;
+  border-radius: 20px;
+  text-align: center;
+  align-content: center;
+}
+
+header >img{
+  width: 200px;
+  height: 80px;
+}
+
+.prenotazioni{
+  background-color: #00FF00;
+  padding: 10px;
+  margin: 10px;
+  width: 900px;
+  height: 40px;
+  display: inline-block;
+  line-height: 1px;
+  text-align: center;
+}
+
+.monopattini.clienti{
+  text-align-last:left;
+  padding: 30PX;
+}
+
+.percentuale_orange{
+  width:50%;
+  font-size:17pt;
+  background:orange;
+  border-radius: 5px;
+}
+
+.percentuale_lim{
+  width:70%;
+  font-size:17pt;
+  background:#00FF00;
+  border-radius: 5px;
+}
+
+.percentuale_red{
+  width:30%;
+  font-size:17pt;
+  background:red;
+  border-radius: 5px;
+}
+
+.arrow:after{
+  content: ' \21A6';
+}
+
+*{
+  box-sizing: border-box;
+}
